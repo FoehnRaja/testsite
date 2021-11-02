@@ -89,8 +89,8 @@ nav a.active{
     height:auto;
     padding-top:10px;
     padding-bottom:8rem;
-    margin-left:4.75%;
-    margin-right:4.75%;
+    margin-left:4.5%;
+    margin-right:4.5%;
     width:90%;
     top:6.4rem;
     margin-bottom:10px;
@@ -129,27 +129,27 @@ nav a.active{
     border-radius: 10px;
     color: white;
   }
-#bodyboxabout{
-    width:90%;
+.bodyboxabout{
     border-style:solid;
     border-color:black;
+    position:fixed;
     background-color:rgba(2,2,2,0.2);
     height:auto;
     padding-top:10px;
     padding-bottom:8rem;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:6.3rem;
+    margin-left:4.5%;
+    width:90%;
+    top:6.4rem;
     margin-bottom:10px;
 }
-#bodyboxabout img{
+.bodyboxabout img{
     width:42%;
     float:right;
     margin:10px;
     margin-top:2%;
     margin-right:5%;
 }
-#bodyboxabout p{
+.bodyboxabout p{
     text-align:center;
     font-size:2rem;
     margin-bottom:-15px;
@@ -206,21 +206,21 @@ nav a.active{
     background:#FBA92c;
 }
 
-#bodyboxprojects{
-    width:90%;
+.bodyboxprojects{
     border-style:solid;
     border-color:black;
+    position:absolute;
     background-color:rgba(2,2,2,0.2);
-    margin:auto;
     height:auto;
-    margin-bottom:20px;
     padding-top:10px;
-    margin-top:6.3rem;
-    margin-left:auto;
-    margin-right:auto;
+    padding-bottom:8rem;
+    margin-left:4.5%;
+    width:90%;
+    top:6.4rem;
+    margin-bottom:10px;
 }
 
-#bodyboxprojects img{
+.bodyboxprojects img{
     width:30%; 
     height:auto;
     display:block;
@@ -229,7 +229,7 @@ nav a.active{
     margin-left:auto;
     margin-right:auto;
 }
-#bodyboxprojects p{
+.bodyboxprojects p{
     text-align:center;
     font-size:2rem;
     width:97%;
