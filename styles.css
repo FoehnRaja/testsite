@@ -16,7 +16,7 @@ header{
     z-index:12;
     position:fixed;
     height:10%;
-    width:90.5%;
+    width:90%;
     background:rgba(0,0,0,0.9);
     margin-left:4.75%;
     margin-top:0.5%;
@@ -90,8 +90,9 @@ nav a.active{
     padding-top:10px;
     padding-bottom:8rem;
     margin-left:4.75%;
+    margin-right:4.75%;
     width:90%;
-  top:6.4rem;
+    top:6.4rem;
     margin-bottom:10px;
 }
 .bodyboxhome img{
