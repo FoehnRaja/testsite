@@ -6,7 +6,7 @@ padding:0;
 body{
     background-color:#ffbf5f ;
     color:#000;
-    font-size:2rem;
+    font-size:24px;
     line-height: 1.6em;
     margin:0;
     font-family:'Quicksand';
@@ -298,29 +298,29 @@ nav a.active{
     font-size:40px;
     text-align: center;
 }
-#bodyboxContacts{
-    width:90%;
+.bodyboxContacts{
     border-style:solid;
     border-color:black;
+    position:absolute;
     background-color:rgba(2,2,2,0.2);
-    margin:auto;
     height:auto;
-    margin-bottom:20px;
-    padding-top:80px;
-    margin-top:6.3rem;
-    margin-left:auto;
-    margin-right:auto;
-    padding-bottom:15.5rem;
+    padding-top:.7rem;
+    padding-bottom:8rem;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    width:90%;
+    top:6.4rem;
+    margin-bottom:10px;
 }
 
-#bodyboxContacts img{
+.bodyboxContacts img{
     width:40%;
     height: auto;
     float:right;
     margin-right:5%;
     border-radius:50%;
 }
-#bodyboxContacts p{
+.bodyboxContacts p{
     text-align:center;
     font-size:2rem;
     width:97%;
@@ -338,13 +338,8 @@ nav a.active{
         border-color:black;
         border-style:solid;
         }
-    .bodyboxskills li{
-      font-size:18px;
-        margin-left:-3%;
-    }
-    
     .bodyboxhome{
-        margin-top:2rem;
+        margin-top:6%;
         margin-right:4.75;
     }
     .bodyboxhome img{
@@ -356,12 +351,12 @@ nav a.active{
         z-index:12;
         position:fixed;
         height:auto;
-        width:90%;
+        width:100%;
         background:rgba(0,0,0,0.9);
-        margin-left:5%;
         margin-top:0.5%;
         padding-top:0.5%;
         padding-bottom:0.5%;
+        margin-left:0;
         
     }
     nav{
@@ -398,7 +393,7 @@ nav a.active{
         margin:0 auto;
     }
 .bodyboxabout{
-    margin-top:5rem;
+    margin-top:6%;
     margin-right:5%;
     }
 .bodyboxabout img{
@@ -419,21 +414,25 @@ nav a.active{
     border-style:solid;
     }
 .bodyboxskills li{
-  font-size:15px;
-    margin-left:-3%;
+  font-size:1rem;
+  margin-left:2rem;
 }
 .bodyboxskills{
     margin-top:9rem;
 }
-
 .bodyboxskills p{
-    font-size: 18px;
+    font-size: 1rem;
 }
 .bodyboxprojects{
-    margin-top:9rem;
+    margin-top:6%;
+    margin-right:5%;
+}
+.bodyboxprojects p{
+    margin-left:-1%;
 }
 .bodyboxAtlas{
-    margin-top:9rem;
+    margin-top:6%;
+    margin-right:5%;
 }
 .bodyboxAtlas img{
     width:70%;
@@ -447,14 +446,13 @@ nav a.active{
     margin-left:15%;
 }
 .bodyboxContacts{
-    margin-top:9rem;
+    margin-top:6%;
+    margin-right:5%;
 }
 .bodyboxContacts img{
     width:60%;
     height:50%;
     margin-left:20%;
-    margin-top:-15%;
-    margin-bottom:-18%;
     float:none;
 }
 .bodyboxContacts p{
@@ -478,34 +476,35 @@ nav a.active{
 }
 }
 @media screen and (min-width:700px){
-    .navbar ul{
-        padding-left:0px;
-        background-color:rgba(0,0,0,0.9);
-        padding-top:20px;
-        height:auto;
-        padding-bottom:20px;
-        border-style:solid;
-        border-color:#000;
+    header{
+        z-index:12;
         position:fixed;
-        text-align:center;
+        height:auto;
         width:90%;
-        margin-top:.2%;
+        padding-left:0;
+        background:rgba(0,0,0,0.9);
         margin-left:4.75%;
+        margin-top:0.5%;
+        padding-top:0.5%;
+        padding-bottom:0.5%;
+        
     }
 }
 @media screen and (min-width:1600px){
 .bodyboxhome{
-    width:90%;
     border-style:solid;
     border-color:black;
+    position:absolute;
     background-color:rgba(2,2,2,0.2);
-    height:100%;
-    padding-top:10px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:6.3rem;
+    height:auto;
+    padding-top:.7rem;
     padding-bottom:7%;
-    line-height:1.5rem;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    line-height: 1.5rem;
+    width:90%;
+    top:6rem;
+    margin-bottom:10px;
 }
 .bodyboxhome img{
     margin-top:0;
@@ -516,17 +515,19 @@ nav a.active{
 
 }
 .bodyboxabout{
-    width:90%;
     border-style:solid;
     border-color:black;
+    position:absolute;
     background-color:rgba(2,2,2,0.2);
-    height:100%;
-    padding-top:10px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:6.3rem;
+    height:auto;
+    padding-top:.7rem;
     padding-bottom:7%;
-    line-height:1.5rem;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    line-height: 1.5rem;
+    width:90%;
+    top:6rem;
+    margin-bottom:10px;
 }
 .bodyboxabout img{
     width:auto;
@@ -535,24 +536,27 @@ nav a.active{
     margin:3rem;
 }
 .bodyboxContacts{
-    width:90%;
     border-style:solid;
     border-color:black;
+    position:absolute;
     background-color:rgba(2,2,2,0.2);
-    height:100%;
-    padding-top:10px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:6.3rem;
-    padding-bottom:10%;
-    line-height:1.5rem;
+    height:auto;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    line-height: 1.5rem;
+    width:90%;
+    top:6rem;
 }
 .bodyboxContacts img{
     width:auto;
     height:50%;  
     float:right;
-    margin:10rem;
-    margin-top:1rem;
+    margin-left:10rem;
+    margin-top:5rem;
+
+}
+.bodyboxContacts p{
+    margin:2%;
 
 }
 
