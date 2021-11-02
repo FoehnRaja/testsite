@@ -140,20 +140,19 @@ nav a.active{
     margin-bottom:-15px;
     line-height:3rem;
 }
-#bodyboxskills{
-    width:90%;
+.bodyboxskills{
     border-style:solid;
     border-color:black;
+    position:absolute;
     background-color:rgba(2,2,2,0.2);
-    margin-bottom:20px;
-    padding-top:10px;
-    margin-top:6.3rem;
-    padding-bottom:5rem;
     height:auto;
-    margin-left:auto;
-    margin-right:auto;
+    padding-top:10px;
+    padding-bottom:8rem;
+    margin-left:4.75%;
+  top:6.4rem;
+    margin-bottom:10px;
 }
-#bodyboxskills img{
+.bodyboxskills img{
     height:auto;
     width:30%;
     margin:10px;
@@ -162,7 +161,7 @@ nav a.active{
    margin-right:auto;
    display:block;
 }
-#bodyboxskills p{
+.bodyboxskills p{
     text-align:center;
     font-size:2rem;
     width:97%;
@@ -171,18 +170,18 @@ nav a.active{
     margin-right:auto;
     display:block;
 }
-#bodyboxskills a.link{
+.bodyboxskills a.link{
     color:#202264;
 }
-#bodyboxskills a.visited{
+.bodyboxskills a.visited{
     color:black;
 }
-#bodyboxskills li{
+.bodyboxskills li{
     font-size:25px;
     margin-left:10%;
-    align-items: center;
+    text-align: left;
 }
-#bodyboxskills hr{
+.bodyboxskills hr{
     border:3px dotted black;
     margin-top:50
 }
