@@ -143,6 +143,7 @@ nav a.active{
 .bodyboxskills{
     border-style:solid;
     border-color:black;
+    position:absolute;
     background-color:rgba(2,2,2,0.2);
     height:auto;
     padding-top:10px;
