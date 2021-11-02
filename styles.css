@@ -53,7 +53,6 @@ nav a.active{
     margin:0 auto;
 }
 
-
 nav a:hover{
     background-color: #09133e;
     padding-top:10px;
@@ -79,7 +78,18 @@ nav a.active{
   top:6.4rem;
     margin-bottom:10px;
 }
-
+.bodyboxskills{
+    border-style:solid;
+    border-color:black;
+    position:absolute;
+    background-color:rgba(2,2,2,0.2);
+    height:auto;
+    padding-top:10px;
+    padding-bottom:8rem;
+    margin-left:4.75%;
+  top:6.4rem;
+    margin-bottom:10px;
+}
 .bodyboxhome img{
     width:30%; 
     height:auto;
@@ -140,18 +150,7 @@ nav a.active{
     margin-bottom:-15px;
     line-height:3rem;
 }
-.bodyboxskills{
-    border-style:solid;
-    border-color:black;
-    position:absolute;
-    background-color:rgba(2,2,2,0.2);
-    height:auto;
-    padding-top:10px;
-    padding-bottom:8rem;
-    margin-left:4.75%;
-  top:6.4rem;
-    margin-bottom:10px;
-}
+
 .bodyboxskills img{
     height:auto;
     width:30%;
